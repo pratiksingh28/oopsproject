@@ -17,6 +17,8 @@ class Employee{
     Employee(){
         cout<<"******EMPLOYEE DETAILS******";
     }
+    ~Employee(){
+    }
     void get_Emp_data(){
         cout<<"\n Enter employee ID :";
         cin>>id;
